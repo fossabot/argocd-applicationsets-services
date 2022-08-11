@@ -7,6 +7,33 @@ entries:
         - [Added] GitHub Workflows
     apiVersion: v2
     appVersion: 1.23.0
+    created: "2022-08-11T16:05:30.062812332Z"
+    description: A HELM Chart for ArgoCD ApplicationSets for Kubernetes
+    digest: 677dee59773161f004b4a85f89aee037a9ffa1c7ec49df9342b7c916e2b5f6ee
+    home: https://github.com/saidsef/argocd-applicationsets-services
+    icon: https://raw.githubusercontent.com/argoproj/argo/master/docs/assets/argo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    - applicationsets
+    kubeVersion: '>= 1.23'
+    maintainers:
+    - email: saidsef@gmail.com
+      name: Said Sef
+    name: argocd-applicationsets-services
+    sources:
+    - https://github.com/saidsef/argocd-applicationsets-services.git
+    type: application
+    urls:
+    - https://github.com/saidsef/argocd-applicationsets-services/releases/download/argocd-applicationsets-services-0.1.1/argocd-applicationsets-services-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
+      artifacthub.io/changes: |
+        - [Added] ArgoCD ApplicationSet Services
+        - [Added] GitHub Workflows
+    apiVersion: v2
+    appVersion: 1.23.0
     created: "2022-08-11T13:00:50.060155249Z"
     description: A HELM Chart for ArgoCD ApplicationSets for Kubernetes
     digest: 249c68fad9b57b9d5e406a39fda2dca3a9b797d9c174c242bf9bc5a0a7906b50
@@ -120,4 +147,4 @@ entries:
     urls:
     - https://github.com/saidsef/argocd-applicationsets-services/releases/download/argocd-applicationsets-services-0.0.1/argocd-applicationsets-services-0.0.1.tgz
     version: 0.0.1
-generated: "2022-08-11T13:00:50.060171249Z"
+generated: "2022-08-11T16:05:30.062840233Z"
