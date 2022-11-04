@@ -3,6 +3,42 @@ entries:
   argocd-applicationsets-services:
   - annotations:
       artifacthub.io/changes: |
+        - "Add kustomize patches section"
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: README
+          url: https://raw.githubusercontent.com/saidsef/argocd-applicationsets-services/main/README.md
+        - name: LICENSE
+          url: https://raw.githubusercontent.com/saidsef/argocd-applicationsets-services/main/LICENSE.md
+        - name: CONTRIBUTING
+          url: https://raw.githubusercontent.com/saidsef/argocd-applicationsets-services/main/CONTRIBUTING.md
+    apiVersion: v2
+    appVersion: 0.4.1
+    created: "2022-11-04T19:17:52.489783626Z"
+    description: A HELM Chart for ArgoCD ApplicationSets for Kubernetes
+    digest: a70754078dffe3684306123d57654adaa7ef6cd4d3db340e0f527835cd609d8a
+    home: https://github.com/saidsef/argocd-applicationsets-services
+    icon: https://raw.githubusercontent.com/argoproj/argo/master/docs/assets/argo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    - applicationsets
+    - argocd-applicationsets
+    - preview-environment
+    kubeVersion: '>= 1.23'
+    maintainers:
+    - name: saidsef
+      url: https://saidsef.github.io/argocd-applicationsets-services
+    name: argocd-applicationsets-services
+    sources:
+    - https://github.com/saidsef/argocd-applicationsets-services.git
+    type: application
+    urls:
+    - https://github.com/saidsef/argocd-applicationsets-services/releases/download/argocd-applicationsets-services-0.4.1/argocd-applicationsets-services-0.4.1.tgz
+    version: 0.4.1
+  - annotations:
+      artifacthub.io/changes: |
         - "Add repo sections for helm values and parameters"
         - "Refactored repo section to accommodate helm"
       artifacthub.io/license: Apache-2.0
@@ -1129,4 +1165,4 @@ entries:
     urls:
     - https://github.com/saidsef/argocd-applicationsets-services/releases/download/argocd-applicationsets-services-0.0.1/argocd-applicationsets-services-0.0.1.tgz
     version: 0.0.1
-generated: "2022-10-22T00:01:55.651295267Z"
+generated: "2022-11-04T19:17:52.49017213Z"
