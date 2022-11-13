@@ -3,6 +3,44 @@ entries:
   argocd-applicationsets-services:
   - annotations:
       artifacthub.io/changes: |
+        - "Add generators pull request for GitLab"
+        - "Refactor code to accommodate GitLab merge request"
+        - "Add GitHub/GitLab enterprise support via api parameter"
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: README
+          url: https://raw.githubusercontent.com/saidsef/argocd-applicationsets-services/main/README.md
+        - name: LICENSE
+          url: https://raw.githubusercontent.com/saidsef/argocd-applicationsets-services/main/LICENSE.md
+        - name: CONTRIBUTING
+          url: https://raw.githubusercontent.com/saidsef/argocd-applicationsets-services/main/CONTRIBUTING.md
+    apiVersion: v2
+    appVersion: 0.5.3
+    created: "2022-11-13T15:46:32.626023274Z"
+    description: A HELM Chart for ArgoCD ApplicationSets for Kubernetes
+    digest: 031493e623ce80f3928eba513c6e452adef9bdddc4313384accffb4011357f2b
+    home: https://github.com/saidsef/argocd-applicationsets-services
+    icon: https://raw.githubusercontent.com/argoproj/argo/master/docs/assets/argo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    - applicationsets
+    - argocd-applicationsets
+    - preview-environment
+    kubeVersion: '>= 1.23'
+    maintainers:
+    - name: saidsef
+      url: https://saidsef.github.io/argocd-applicationsets-services
+    name: argocd-applicationsets-services
+    sources:
+    - https://github.com/saidsef/argocd-applicationsets-services.git
+    type: application
+    urls:
+    - https://github.com/saidsef/argocd-applicationsets-services/releases/download/argocd-applicationsets-services-0.5.3/argocd-applicationsets-services-0.5.3.tgz
+    version: 0.5.3
+  - annotations:
+      artifacthub.io/changes: |
         - "Version bump"
       artifacthub.io/license: Apache-2.0
       artifacthub.io/links: |
@@ -1273,4 +1311,4 @@ entries:
     urls:
     - https://github.com/saidsef/argocd-applicationsets-services/releases/download/argocd-applicationsets-services-0.0.1/argocd-applicationsets-services-0.0.1.tgz
     version: 0.0.1
-generated: "2022-11-06T16:21:42.93733458Z"
+generated: "2022-11-13T15:46:32.626708978Z"
