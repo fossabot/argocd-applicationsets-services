@@ -3,6 +3,42 @@ entries:
   argocd-applicationsets-services:
   - annotations:
       artifacthub.io/changes: |
+        - "Revert project id variable in template"
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: README
+          url: https://raw.githubusercontent.com/saidsef/argocd-applicationsets-services/main/README.md
+        - name: LICENSE
+          url: https://raw.githubusercontent.com/saidsef/argocd-applicationsets-services/main/LICENSE.md
+        - name: CONTRIBUTING
+          url: https://raw.githubusercontent.com/saidsef/argocd-applicationsets-services/main/CONTRIBUTING.md
+    apiVersion: v2
+    appVersion: 0.5.8
+    created: "2022-11-27T19:22:34.922480709Z"
+    description: A HELM Chart for ArgoCD ApplicationSets for Kubernetes
+    digest: 1fcd6c3e73a84c62b21ffae4d9dcfdb3e8fdba2bff367396ebff3e054dd30896
+    home: https://github.com/saidsef/argocd-applicationsets-services
+    icon: https://raw.githubusercontent.com/argoproj/argo/master/docs/assets/argo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    - applicationsets
+    - argocd-applicationsets
+    - preview-environment
+    kubeVersion: '>= 1.23'
+    maintainers:
+    - name: saidsef
+      url: https://saidsef.github.io/argocd-applicationsets-services
+    name: argocd-applicationsets-services
+    sources:
+    - https://github.com/saidsef/argocd-applicationsets-services.git
+    type: application
+    urls:
+    - https://github.com/saidsef/argocd-applicationsets-services/releases/download/argocd-applicationsets-services-0.5.8/argocd-applicationsets-services-0.5.8.tgz
+    version: 0.5.8
+  - annotations:
+      artifacthub.io/changes: |
         - "Add GitLab per repository project id"
       artifacthub.io/license: Apache-2.0
       artifacthub.io/links: |
@@ -1455,4 +1491,4 @@ entries:
     urls:
     - https://github.com/saidsef/argocd-applicationsets-services/releases/download/argocd-applicationsets-services-0.0.1/argocd-applicationsets-services-0.0.1.tgz
     version: 0.0.1
-generated: "2022-11-27T19:12:59.701403638Z"
+generated: "2022-11-27T19:22:34.922871414Z"
