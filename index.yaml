@@ -3,6 +3,43 @@ entries:
   argocd-applicationsets-services:
   - annotations:
       artifacthub.io/changes: |
+        - "Refactored helm and kustomize rendering"
+        - "Update documentation"
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: README
+          url: https://raw.githubusercontent.com/saidsef/argocd-applicationsets-services/main/README.md
+        - name: LICENSE
+          url: https://raw.githubusercontent.com/saidsef/argocd-applicationsets-services/main/LICENSE.md
+        - name: CONTRIBUTING
+          url: https://raw.githubusercontent.com/saidsef/argocd-applicationsets-services/main/CONTRIBUTING.md
+    apiVersion: v2
+    appVersion: 0.6.1
+    created: "2022-11-28T22:31:48.551047638Z"
+    description: A HELM Chart for ArgoCD ApplicationSets for Kubernetes
+    digest: e72d791ee6b3cc1d88cf5d10cf17824d91ffe8f6df24281cce62609f3eb8261f
+    home: https://github.com/saidsef/argocd-applicationsets-services
+    icon: https://raw.githubusercontent.com/argoproj/argo/master/docs/assets/argo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    - applicationsets
+    - argocd-applicationsets
+    - preview-environment
+    kubeVersion: '>= 1.23'
+    maintainers:
+    - name: saidsef
+      url: https://saidsef.github.io/argocd-applicationsets-services
+    name: argocd-applicationsets-services
+    sources:
+    - https://github.com/saidsef/argocd-applicationsets-services.git
+    type: application
+    urls:
+    - https://github.com/saidsef/argocd-applicationsets-services/releases/download/argocd-applicationsets-services-0.6.1/argocd-applicationsets-services-0.6.1.tgz
+    version: 0.6.1
+  - annotations:
+      artifacthub.io/changes: |
         - "Add GitLab group name option to variables"
       artifacthub.io/license: Apache-2.0
       artifacthub.io/links: |
@@ -1635,4 +1672,4 @@ entries:
     urls:
     - https://github.com/saidsef/argocd-applicationsets-services/releases/download/argocd-applicationsets-services-0.0.1/argocd-applicationsets-services-0.0.1.tgz
     version: 0.0.1
-generated: "2022-11-28T21:44:18.29431682Z"
+generated: "2022-11-28T22:31:48.551540039Z"
