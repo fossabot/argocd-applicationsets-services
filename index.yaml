@@ -3,6 +3,42 @@ entries:
   argocd-applicationsets-services:
   - annotations:
       artifacthub.io/changes: |
+        - "Added support for varibale branch slug and head short sha"
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: README
+          url: https://raw.githubusercontent.com/saidsef/argocd-applicationsets-services/main/README.md
+        - name: LICENSE
+          url: https://raw.githubusercontent.com/saidsef/argocd-applicationsets-services/main/LICENSE.md
+        - name: CONTRIBUTING
+          url: https://raw.githubusercontent.com/saidsef/argocd-applicationsets-services/main/CONTRIBUTING.md
+    apiVersion: v2
+    appVersion: 0.6.6
+    created: "2022-12-29T19:42:44.12802094Z"
+    description: A HELM Chart for ArgoCD ApplicationSets for Kubernetes
+    digest: 2316142340d25a8152c3b16205ffa5d35feaf592346c51320eb03b08165fa940
+    home: https://github.com/saidsef/argocd-applicationsets-services
+    icon: https://raw.githubusercontent.com/argoproj/argo/master/docs/assets/argo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    - applicationsets
+    - argocd-applicationsets
+    - preview-environment
+    kubeVersion: '>= 1.23'
+    maintainers:
+    - name: saidsef
+      url: https://saidsef.github.io/argocd-applicationsets-services
+    name: argocd-applicationsets-services
+    sources:
+    - https://github.com/saidsef/argocd-applicationsets-services.git
+    type: application
+    urls:
+    - https://github.com/saidsef/argocd-applicationsets-services/releases/download/argocd-applicationsets-services-0.6.6/argocd-applicationsets-services-0.6.6.tgz
+    version: 0.6.6
+  - annotations:
+      artifacthub.io/changes: |
         - "Add K8s spot termination notice with fixed tag"
       artifacthub.io/license: Apache-2.0
       artifacthub.io/links: |
@@ -1816,4 +1852,4 @@ entries:
     urls:
     - https://github.com/saidsef/argocd-applicationsets-services/releases/download/argocd-applicationsets-services-0.0.1/argocd-applicationsets-services-0.0.1.tgz
     version: 0.0.1
-generated: "2022-12-28T14:40:45.598991217Z"
+generated: "2022-12-29T19:42:44.128367144Z"
